@@ -17,7 +17,7 @@
 
 If you followed the example the folder structure should look like
 
-![Folder Structure of Repo with react-preview installed](assets/folder-structure?raw=true)
+![Folder Structure of Repo with react-preview installed](assets/folder-structure.png?raw=true)
 
 ```yml
 reactPreviewFolder: client
