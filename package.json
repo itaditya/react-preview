@@ -1,0 +1,32 @@
+{
+  "name": "react-preview",
+  "version": "1.0.0",
+  "description": "GitHub App built with probot that generates preview links for react based projects.",
+  "author": "Aditya Agarwal <adityaa803@gmail.com> (adi.surge.sh)",
+  "license": "ISC",
+  "repository": "https://github.com/itaditya/react-preview.git",
+  "scripts": {
+    "dev": "nodemon --exec \"npm start\"",
+    "start": "probot run ./index.js",
+    "lint": "standard --fix",
+    "test": "jest && standard"
+  },
+  "dependencies": {
+    "probot": "^6.0.0",
+    "probot-commands": "^1.0.1"
+  },
+  "devDependencies": {
+    "jest": "^21.2.1",
+    "nodemon": "^1.17.2",
+    "smee-client": "^1.0.1",
+    "standard": "^10.0.3"
+  },
+  "engines": {
+    "node": ">= 8.3.0"
+  },
+  "standard": {
+    "env": [
+      "jest"
+    ]
+  }
+}
