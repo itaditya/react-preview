@@ -2,6 +2,8 @@
 
 > a GitHub App built with [probot](https://github.com/probot/probot) that generates preview links for react based projects.
 
+![Demo](assets/demonstration.png?raw=true)
+
 ## How to Use
 
 * Go to the [app](https://github.com/apps/react-preview) page.

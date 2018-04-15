@@ -9,7 +9,8 @@
     "dev": "nodemon --exec \"npm start\"",
     "start": "probot run ./index.js",
     "lint": "standard --fix",
-    "test": "jest && standard"
+    "test": "jest && standard",
+    "deploy": "git push heroku master"
   },
   "dependencies": {
     "probot": "^6.0.0",
