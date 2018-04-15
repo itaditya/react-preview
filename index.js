@@ -1,3 +1,4 @@
+const express = require('express')
 const commands = require('probot-commands')
 
 const getCodeSandboxLink = ({owner, repo, branch, folder = ''}) => {
@@ -6,6 +7,9 @@ const getCodeSandboxLink = ({owner, repo, branch, folder = ''}) => {
 }
 
 module.exports = (robot) => {
+  const app = robot.route('/')
+  app.use(require('express').static('public'))
+
   commands(robot, 'preview', async (context, command) => {
     const { payload } = context
     if (payload.comment.user.type === 'Bot') {
