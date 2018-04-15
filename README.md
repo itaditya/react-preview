@@ -14,14 +14,13 @@
 1. Create a folder named `.github/` in repo root.
 1. Inside `.github/` folder create a `config.yml` file.
 1. Put this code in the `config.yml`. Replace client with whatever your folder name is. You can also go deeper like `/package/web`.
+```yml
+reactPreviewFolder: client
+```
 
 If you followed the example the folder structure should look like
 
 ![Folder Structure of Repo with react-preview installed](assets/folder-structure.png?raw=true)
-
-```yml
-reactPreviewFolder: client
-```
 
 ## Setup for Development
 
